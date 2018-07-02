@@ -1,0 +1,5 @@
+Submission 1:
+
+Drop features with more than 0.85 correlation, 
+rescale with MinMaxScaler, 
+xgboost with our_params = {'eta':0.065,'seed':0,'subsample':1,'colsample_bytree':1,'objective':'reg:linear','max_depth':25,'min_child_weight':1}
